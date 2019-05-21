@@ -1,0 +1,25 @@
+{
+  "name": "nodejsdice",
+  "version": "1.0.0",
+  "description": "The Node Js Project for testing",
+  "main": "index.js",
+  "scripts": {
+    "test": "mocha -t 30000 ./tests/init.js ./tests/unit/**/*.js --exit"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/FredGho/NodeJsDice.git"
+  },
+  "author": "FGO",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/FredGho/NodeJsDice/issues"
+  },
+  "homepage": "https://github.com/FredGho/NodeJsDice#readme",
+  "devDependencies": {
+    "mocha": "^6.1.4",
+    "chai": "4.2.0",
+    "sinon": "^7.2.4",
+    "sinon-chai": "^3.3.0"
+  }
+}
