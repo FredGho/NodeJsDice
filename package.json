@@ -4,7 +4,8 @@
   "description": "The Node Js Project for testing",
   "main": "index.js",
   "scripts": {
-    "test": "mocha -t 30000 ./tests/init.js ./tests/unit/**/*.js --exit"
+    "test": "mocha -t 30000 ./tests/init.js ./tests/unit/**/*.js --exit",
+    "start": "node index.js"
   },
   "repository": {
     "type": "git",
@@ -22,4 +23,5 @@
     "sinon": "^7.2.4",
     "sinon-chai": "^3.3.0"
   }
+
 }
