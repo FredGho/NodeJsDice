@@ -1,4 +1,5 @@
 const http = require('http');
+const rollDiceGame = require('./src/RollDiceCode');
 
 const hostname = '127.0.0.1';
 const port = 8080;
