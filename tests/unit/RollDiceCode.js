@@ -39,10 +39,9 @@ describe('RollDiceCode', () => {
         it('should return an error if result is not the sum of roll dices', () => {
 
         });
-        it('should return an error if the serie is > 5', () => {
-            let z = 6;
-            let result = 3+'d'+6+'+'+z;
-            assert.isAbove(checkSerieNumber(result),5);
+        it.only('should return an error if the modificator is > 100', () => {
+            let result = 0+'d'+6+'+'+101;
+            expect(diceGameFunction(result)).to.equal("erreur de la saisie du modificator; il ne peut pas excéder 5")
         });
         it('should return an error if number of result is not equal to the number of the serie', () => {
 
